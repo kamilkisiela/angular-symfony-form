@@ -41,6 +41,6 @@
     "karma-phantomjs-launcher": "~0.2.1"
   },
   "scripts": {
-    "test": "grunt build"
+    "test": "grunt test"
   }
 }
