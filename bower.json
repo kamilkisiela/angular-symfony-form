@@ -1,0 +1,17 @@
+{
+  "name": "angular_symfony_form",
+  "version": "0.0.1",
+  "main": "./dist/angular-symfony-form.js",
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-mocks": "~1.4.5"
+  },
+  "ignore": [
+    "*.json",
+    ".gitignore",
+    ".jshintrc",
+    "*.md",
+    "src",
+    "tmp"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "angular-symfony-form",
+  "description": "Symfony forms in AngularJS. For now there is only just validation handling",
+  "version": "0.0.1",
+  "author": "Kamil Kisiela",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kamilkisiela/angular-symfony-form.git"
+  },
+  "keywords": [
+    "angularjs",
+    "symfony",
+    "symfony2",
+    "validation",
+    "form"
+  ],
+  "main": "dist/angular-symfony-form.js",
+  "files": [
+    "dist/*",
+    "test/*"
+  ],
+  "devDependencies": {
+    "angular":                  "~1.4.5",
+    "babelify":                 "~6.3.0",
+    "grunt":                    "~0.4.5",
+    "grunt-cli":                "~0.1.13",
+    "grunt-babel":              "~5.0.3",
+    "grunt-browserify":         "~4.0.1",
+    "grunt-contrib-concat":     "~0.5.1",
+    "grunt-contrib-copy":       "~0.8.1",
+    "grunt-contrib-clean":      "~0.6.0",
+    "grunt-contrib-jshint":     "~0.11.0",
+    "grunt-contrib-uglify":     "~0.9.2",
+    "grunt-contrib-watch":      "~0.6.1",
+    "load-grunt-tasks":         "~3.3.0",
+    "grunt-babel":              "~5.0.3",
+    "grunt-karma":              "~0.12.1",
+    "karma":                    "~0.13.10",
+    "karma-jasmine":            "~0.3.6",
+    "karma-phantomjs-launcher": "~0.2.1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "grunt build"
+  }
+}
